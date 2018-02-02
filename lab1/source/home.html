@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function validateForm() {
+            var x = document.forms["myForm"]["*"].value;
+            var mas = document.forms["myForm"]["Masters"].value;
+            var Ug = document.forms["myForm"]["Undergrad"].value;
+            var fall = document.forms["myForm"]["Fall"].value;
+            var spring = document.forms["myForm"]["Spring"].value;
+            var summer = document.forms["myForm"]["Summer"].value;
+            var cs = document.forms["myForm"]["CS"].value;
+            var ece = document.forms["myForm"]["ECE"].value;
+            var med = document.forms["myForm"]["medical"].value;
+
+            if (x == "select") {
+                alert("Fill all the boxes");
+                return false;
+            }
+        }
+        </script>
+</head>
+<body>
+<div class="Container" align="center">
+    <div class="header">
+        <h1>University of Missouri-Kansas city</h1>
+    </div>
+    <hr>
+    <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+    <div class="row" >
+        <div class="col-md-4" >
+            <h1> Education</h1>
+
+            <div class="col-md-4" >
+            <select name="dropdown">
+                <option value="*">select </option>
+                <option value="Masters">Masters</option>
+                <option value="Undergard">Under Graduate</option>
+            </select>
+<hr>
+            </div>
+
+        </div>
+        <div class="col-md-4" >
+            <h1> Semester</h1>
+
+
+            <div class="col-md-4" >
+                <select name="dropdown1">
+                    <option value="*">select </option>
+                    <option value="Fall">FAll</option>
+                    <option value="Spring">SPRING</option>
+                    <option value="Summer">SUMMER</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="col-md-4" >
+            <h1> Career</h1>
+
+            <div class="col-md-4" >
+                <select name="dropdown2">
+                    <option value="*">select </option>
+                    <option value="CS">Computer Science</option>
+                    <option value="ECE">Eletrical</option>
+                    <option value="medical">Medical</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+        <div align="center">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</div>
+<a href="subjects.html"></a>
+</body>
+</html>
