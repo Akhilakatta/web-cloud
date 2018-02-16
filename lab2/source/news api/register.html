@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        .center {
+            padding: 100px 0;
+            border: none;
+            text-align: justify;
+        }
+        .panel-default {
+            opacity: 0.9;
+            margin-top: 30px;
+            margin-left: 40%;
+        }
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<h2 align="center">News Api</h2>
+<body data-ng-controller="REGISTER">
+<div class="center" >
+    <div class="panel-default">
+
+        <table style="align-content: center" class="table table-bordered table-condensed">
+            <tr>
+                <td align="center" colspan="2">
+
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    First Name:
+                </th>
+                <th>
+                    <input type="text" name="first_name" data-ng-model="firstname" placeholder="First Name">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    last Name:
+                </th>
+                <th>
+                    <input type="text" name="last_name" data-ng-model="lastname" placeholder="last Name">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    EMail:
+                </th>
+                <th>
+                    <input type="text" name="email" data-ng-model="email" placeholder="Email">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Password:
+                </th>
+                <th>
+                    <input type="text" name="password" data-ng-model="paassword" placeholder="password">
+                </th>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2">
+                    <div >
+                        <form method="get" action="direc.html">
+                            <br>
+                            <button type="submit">Register</button>
+
+                        </form>
+
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

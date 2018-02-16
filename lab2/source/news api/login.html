@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html data-ng-app="Login">
+<head>
+    <title>Login Page</title>
+    <meta charset="UTF-8">
+
+    <style>
+        .center {
+            padding: 100px 0;
+            border: none;
+            text-align: justify;
+        }
+        .panel-default {
+            opacity: 0.9;
+            margin-top: 30px;
+            margin-left: 40%;
+        }
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<h2 align="center">News API</h2>
+<body data-ng-controller="login">
+<div class="center" >
+    <div class="panel-default">
+
+<table style="align-content: center" class="table table-bordered table-condensed">
+    <tr>
+        <td align="center" colspan="2">
+
+        </td>
+    </tr>
+    <tr>
+        <th>
+            User Name:
+        </th>
+        <th>
+            <input type="text" name="user_name" data-ng-model="username" placeholder="User Name">
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Password:
+        </th>
+        <th>
+            <input type="password" name="password" data-ng-model="password" placeholder="Password">
+        </th>
+    </tr>
+
+    <tr>
+        <td align="center" colspan="2">
+            <div >
+                <form method="get" action="directions.html">
+                    <br>
+                    <button type="submit" class="btn btn-info" data-ng-click="validateuser(username,password)">Log in</button>
+
+                </form>
+
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <br>
+        <td>No Account?</td>
+
+
+        <td align="center" colspan="2">
+            <div >
+                <form method="get" action="direc.html">
+
+                    <button type="submit">Register</button>
+
+                </form>
+
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>
