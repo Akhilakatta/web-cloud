@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(34, 64, 100);
+}
+
+.index {
+  background-color: red;
+  height: 0px;
+  width: 100px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+#play {
+  height: 100px;
+  width: 150px;
+  margin: 10px 0;
+}
