@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Akhila katta",
+    "parent": "US",
+    "children": [
+      {
+        "name": "Selva Raj",
+        "parent": "US"
+
+      },
+      {
+        "name": "Ankith patel",
+        "parent": "US"
+
+      },
+      {
+        "name": "Anupuma singh",
+        "parent": "US"
+
+      },
+      {
+        "name": "Steve k",
+        "parent": "US"
+
+      },
+      {
+        "name": "Priyanka gala",
+        "parent": "US"
+
+      },
+
+      {
+        "name": "Sravani Kadiyala",
+        "parent": "US"
+
+      },
+      {
+        "name": "BenDick Ward",
+        "parent": "US"
+
+      },
+      {
+        "name": "Piyush gupta",
+        "parent": "US"
+
+      },
+      {
+        "name": "Seth tracy",
+        "parent": "US"
+
+      },
+      {
+        "name": "Jason Goshi",
+        "parent": "US"
+
+      },
+
+      {
+        "name": "Florida sam",
+        "parent": "US"
+
+      },
+      {
+        "name": "mayer khan",
+        "parent": "US"
+
+      },
+      {
+        "name": "St pauls",
+        "parent": "US"
+
+      },
+      {
+        "name": "Divya kumari",
+        "parent": "US"
+
+      },
+      {
+        "name": "Akash Gopi",
+        "parent": "US"
+
+      }
+
+    ]
+  }
+]

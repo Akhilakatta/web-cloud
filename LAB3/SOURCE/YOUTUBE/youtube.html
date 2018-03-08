@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="you.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script> src="https://www.googleapis.com/youtube/v3"</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Youtube Search API</h1>
+        <p>Search For a Video</p>
+    </header>
+    <section>
+        <form id="search-form" name="search-form" onsubmit="return search()">
+            <div class="fieldcontainer">
+                <input type="search" id="query" class="search-field" placeholder="Search YouTube">
+                <input type="submit" name="search-btn" id="search-btn" value="">
+            </div>
+        </form>
+
+        <ul id="results"></ul>
+        <div id="buttons"></div>
+    </section>
+
+</div>
+
+</body>
+</html>
