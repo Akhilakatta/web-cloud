@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASE4</string>
+    <string name="emptystring">TextView</string>
+    <string name="title_activity_home">Home</string>
+    <string name="empty">TextView</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="emptyy">TextView</string>
+</resources>
