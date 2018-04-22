@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "308836689264",
+    "firebase_url": "https://umkcproject-c6726.firebaseio.com",
+    "project_id": "umkcproject-c6726",
+    "storage_bucket": "umkcproject-c6726.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308836689264:android:0e7008247a2b171f",
+        "android_client_info": {
+          "package_name": "edu.umkc.rashmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308836689264-ou6g9mggtrh9tujtf13sg0g23b3aq91e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj--6EVZiI2q6AOvxMPzxW0L_PdnKh6qI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
